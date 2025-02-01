@@ -1,6 +1,6 @@
 # 3 LEDs Alarm Button Embarcatech
 
-Este projeto implementa uma simulação de um sistema com **3 LEDs** e um **botão**, com o objetivo de alternar entre os LEDs. Quando o botão é pressionado, os três LEDs são acionados por 3 segundos, e após esse tempo, cada LED é apagado, um por um, a cada 3 segundos, utilizando temporização por hardware ( função: add_alarm_in_ms() ).
+Este projeto implementa uma simulação de um sistema com **3 LEDs** e um **botão**, com o objetivo de alternar entre os LEDs. Quando o botão é pressionado, os três LEDs são acionados e cada LED é apagado, um por um, a cada 3 segundos, utilizando temporização por hardware ( função: add_alarm_in_ms() ).
 
 ## Funcionalidades
 
