@@ -10,6 +10,7 @@ Este projeto implementa uma simulação de um sistema com **3 LEDs** e um **bot�
 - Modo de gravação(kit BitDogLab): ao pressionar o joystick (conectado ao GPIO22).
 - O comportamento é controlado por **temporização por hardware add_alarm_in_ms()**.
 - Simulação do sistema utilizando o **Wokwi** ou rodando diretamente no **kit BitDogLab (RP2040)**.
+- O botão só aciona um novo ciclo caso não haja nenhum em execução.
 
 ## Tecnologias Utilizadas
 
