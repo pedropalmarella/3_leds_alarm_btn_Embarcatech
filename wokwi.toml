@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/leds_temporizados_btn.uf2'
+elf = 'build/leds_temporizados_btn.elf'
