@@ -1,12 +1,13 @@
 # 3 LEDs Alarm Button Embarcatech
 
-Este projeto implementa uma simulação de um sistema com **3 LEDs** e um **botão**, com o objetivo de alternar entre os LEDs. Quando o botão é pressionado, os três LEDs são acionados e cada LED é apagado, um por um, a cada 3 segundos, utilizando temporização por hardware ( função: add_alarm_in_ms() ).
+Este projeto implementa uma simulação de um sistema com **3 LEDs** e um **botão**, com o objetivo de alternar entre os LEDs. Quando o botão é pressionado, os três LEDs são acionados e cada LED é apagado, um por um, a cada 3 segundos, utilizando temporização por hardware ( função: add_alarm_in_ms() ). Entra no bootsel(kit BitDogLab) ao pressionar o joystick (GPIO22).
 
 ## Funcionalidades
 
 - Simulação de **3 LEDs** que alternam entre acender e apagar.
 - O sistema começa com todos os LEDs acesos por 3 segundos quando o **botão** é pressionado.
 - A cada 3 segundos um LED é apagado até que todos os LEDs estejam apagados.
+- Modo de gravação(kit BitDogLab): ao pressionar o joystick (conectado ao GPIO22).
 - O comportamento é controlado por **temporização por hardware add_alarm_in_ms()**.
 - Simulação do sistema utilizando o **Wokwi** ou rodando diretamente no **kit BitDogLab (RP2040)**.
 
